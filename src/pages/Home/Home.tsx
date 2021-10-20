@@ -1,3 +1,9 @@
+import { Container, Content } from "./Home.styles";
+
 export const Home = () => {
-  return <div>home</div>;
+  return (
+    <Container>
+      <Content>hola</Content>
+    </Container>
+  );
 };
