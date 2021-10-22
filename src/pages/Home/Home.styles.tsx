@@ -10,6 +10,18 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  background-color: white;
   width: 500px;
+  & + & {
+    margin-top: 20px;
+  }
+`;
+
+export const SearchSection = styled.section`
+  background-color: white;
+  border-radius: 12px;
+`;
+
+export const Title = styled.h1`
+  font-size: 30px;
+  padding-top: 200px;
 `;
